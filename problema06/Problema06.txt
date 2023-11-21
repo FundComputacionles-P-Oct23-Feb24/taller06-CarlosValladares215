@@ -1,0 +1,28 @@
+1. Inicio
+2. cuenta, i[0-n] <-- 1
+3. nombre, x(50)[{a-z},{A-Z},{BS}]
+4. descuento, d[0-n]
+5.   costo. d[0-n]
+6. cliente, x(5)[{1-2}]
+7. Mientras cuenta <= 7 entonces
+8.	<< "Ingrese su nombre"
+9.	>> nombre
+10.	<< "Ingrese el costo de la computadora"
+11.	>> costo
+12.	<< "Segun el tipo de cliente digite uno de los dos numeros: \n 1. Cliente tipo 1 \n 2. Cliente tipo 2"
+13.	>> cliente
+14.	Si cliente == 1 entonces
+15.		descuento = (costo * 10)/100
+16.		costo = costo - descuento
+17.		<< "Cliente tipo 1, compra con precio" + costo
+18.	Caso contrario
+19.		Si cliente ==2 entonces
+20. 			descuento = (costo * 20)/100
+21.			costo = costo - descuento
+22.			<< "Cliente tipo 2, compra con precio" + costo
+23.		Caso contrario
+24.			<< nombre + " compra con precio de " + costo
+25.		Fin Si
+26.	Fin Si
+27. Fin Mientras
+28. Fin

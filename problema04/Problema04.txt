@@ -1,0 +1,27 @@
+1. Inicio
+2. contador, l <-- verdadero
+3. nombre, x(200)[{a-z},{A-Z},{BS}]
+4. edad, i[0-n]
+5. posicion, x(50)[{a-z},{A-Z},{BS}]
+6. estatura, x(10)[{1-9}{.}]
+7. listado, x (1000000000)[{1-9},{a-z},{A-Z},{-},{,}{.},{BS}] <-- ""
+8. opcion, x(2)[{a-z},{A-Z}]
+9. Mientras contador == verdadero entonces
+10.	<< "Ingrese su nombre"
+11.	>> nombre
+12.	<< "Ingrese su edad"
+13.	>> edad
+14.	<< "Ingrese su posicion en el campo de juego"
+15.	>> posicion
+16.	<< "Ingrese su estatura"
+17.	>> estatura
+18.	listado <-- nombre + " -" + posicion + "-, edad " + edad + ",estatura " + estatura + "\n"
+19.	<< "¿Desea seguir con el listado? Si es asi digite x"
+20.	>> opcion
+21.	Si opcion == "x" entonces
+22.		contador <-- false
+23.	Fin Si
+24. Fin Mientras
+25. << "Listado de Jugadores"
+26. >> listado
+27. Fin

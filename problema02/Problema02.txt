@@ -1,0 +1,11 @@
+1. Inicio
+2. factor, i[0-n] <-- 2
+3. num, i[0-n] <-- 10
+4. producto, i[0-n] <-- 5
+5. Mientras producto <= 30 entonces
+6.	<< producto + "/" + "num"
+7.	producto <-- factor * 5
+8.	num <-- num + 2
+9.	factor <-- factor + 1
+10. Fin Mientras
+11. Fin

@@ -1,0 +1,17 @@
+1. Inicio
+2. nota, i[0-n]
+3. nombre, x(200)[{a-z},{A-Z},{BS}]
+4. numero, i[0-n] <-- 1
+5. Mientras numero <= 4 entonces
+6. 	<< "Ingrese el nombre del estudiante"
+7. 	>> nombre
+8.	<< "Ingrese su promedio del ciclo"
+9.	>> nota
+10.	Si nota <=7 entonces
+11.		<< nombre + " con nota " + nota + " es Reprovado"
+12.	Caso Contrario
+13.		<< nombre + " con nota  " + nota + " es aprovado"
+14.	Fin Si
+15.	numero <-- numero + 1
+16. Fin Mientras
+17. Fin
